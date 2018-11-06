@@ -1,0 +1,19 @@
+.myFade{
+    opacity: 1;
+}
+.myFade.ng-enter {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.myFade.ng-enter {
+    opacity: 0;
+}
+.myFade.ng-enter-active {
+    opacity: 1;
+}
+.myFade.ng-leave {
+    opacity: 1;
+}
+.myFade.ng-leave-active {
+    opacity: 0;
+}
